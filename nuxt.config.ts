@@ -1,4 +1,4 @@
-const baseURL = "https://goa-to-tamilnadu.cyclic.app";
+const baseURL = "https://goatamilan.cyclic.app";
 
 export default defineNuxtConfig({
   app: {
