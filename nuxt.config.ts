@@ -3,7 +3,7 @@ const baseURL = "https://api-goatamilan.cyclic.app";
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Best Goa trip packagesBest Goa to Tamil Nadu Travel Guide: Explore the Best Routes with Goa Tamilan - goatamilan",
+      title: "Travel agency Goa to TamilNadu goatamilan",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -11,7 +11,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Best Goa to Tamil Nadu Travel Guide: Explore the Best Routes with Goa Tamilan - goatamilan",
+            "Travel agency Goa to TamilNadu goatamilan",
         },
       ],
       script: [
