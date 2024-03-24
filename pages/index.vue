@@ -29,7 +29,10 @@
           class="bg-gray-900 absolute h-[318px] md:h-[430px] lg:h-[500px] xl:h-[700px] w-full"
         ></div>
         <video autoplay loop muted class="z-0 object-cover w-full opacity-60">
-          <source src="/hero.mp4" type="video/webm" />
+          <source
+            src="https://ik.imagekit.io/pa8uzidr4/up.mp4?updatedAt=1711285712493"
+            type="video/webm"
+          />
         </video>
 
         <div
