@@ -605,7 +605,7 @@ export default {
       user: {
         name: "",
         number: "",
-        date: "",
+        date: new Date(),
       },
       showRegistrationForm: false,
       selectFeedbackId: 1,
@@ -835,6 +835,12 @@ export default {
   },
 
   methods: {
+    disabledDate(time) {
+      return time.getTime() < Date.now() - 24 * 60 * 60 * 1000; // Disable dates before today
+    },
+    triggerEvent() {
+      this.$gtm.push({ event: "my-custom-event", ...additionalData });
+    },
     register() {
       console.log(this.user.number.length);
       console.log(this.user, "log the user details ");
