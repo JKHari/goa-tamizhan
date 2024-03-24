@@ -13,6 +13,7 @@
     "@element-plus/icons-vue": "^2.3.1",
     "@element-plus/nuxt": "^1.0.7",
     "@nuxt-alt/http": "^1.7.10",
+    "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
     "axios": "^1.6.7",
     "nuxt": "^3.10.3",
     "swiper": "^11.0.7",

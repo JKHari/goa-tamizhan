@@ -31,7 +31,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  ssr: true,
+  ssr: false,
   devtools: { enabled: false },
   css: [
     "~/assets/css/main.css",
@@ -51,7 +51,10 @@ export default defineNuxtConfig({
       baseURL: process.env.BASE_URL,
     },
   },
-  modules: ["@nuxt-alt/http", "@element-plus/nuxt"],
+  modules: ["@nuxt-alt/http", "@element-plus/nuxt", "@zadigetvoltaire/nuxt-gtm"],
+  gtm: {
+    id: "GTM-N637QHZF",
+  },
   http: {
     baseURL,
     credentials: "omit",
