@@ -3,7 +3,7 @@ const baseURL = "https://api-goatamilan.cyclic.app";
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Travel agency Goa to TamilNadu goatamilan",
+      title: "Travel agency Goa to TamilNadu Goa Tamilan",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -11,7 +11,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Travel agency Goa to TamilNadu goatamilan",
+            "Travel agency Goa to TamilNadu Goa Tamilan",
         },
       ],
       script: [
