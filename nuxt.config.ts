@@ -52,8 +52,11 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxt-alt/http", "@element-plus/nuxt", "@zadigetvoltaire/nuxt-gtm"],
+  plugins: [
+    '~/plugins/gtm.js',
+  ],
   gtm: {
-    id: "GTM-N637QHZF",
+    id: 'GTM-W4Z68VB6'
   },
   http: {
     baseURL,
