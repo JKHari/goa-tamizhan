@@ -673,26 +673,26 @@ export default {
       ],
       feedbacks: [
         {
-          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg",
+          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg ",
           content: "Is this package available for a single person?",
           visibleContent:
             "Unfortunately, this package is not available for a single person.",
           hidden: true,
         },
         {
-          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg",
+          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg ",
           content: "In Goa, is South Indian food available?",
           visibleContent: "Yes, South Indian food is available in Goa.",
           hidden: true,
         },
         {
-          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg",
-          content: "Are these group tours?",
+          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg ",
+          content: "Are these group tours? ",
           visibleContent: "No, these are individual tours for family & friends",
           hidden: true,
         },
         {
-          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg",
+          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg ",
           content: "What if I need assistance during my trip?",
           visibleContent:
             "If you need assistance during your trip, our executive is available 24/7",
