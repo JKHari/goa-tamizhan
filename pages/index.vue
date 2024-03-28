@@ -490,7 +490,7 @@
               <img
                 :src="feedback.icon"
                 alt="Toggle Icon"
-                class="w-6 h-6 transition-transform"
+                class="w-4 h-4 transition-transform"
                 :class="{ 'rotate-45': !feedback.hidden }"
               />
             </div>
@@ -673,33 +673,33 @@ export default {
       ],
       feedbacks: [
         {
-          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg ",
+          icon: "/plus.png",
           content: "Is this package available for a single person?",
           visibleContent:
             "Unfortunately, this package is not available for a single person.",
           hidden: true,
         },
         {
-          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg ",
+          icon: "/plus.png",
           content: "In Goa, is South Indian food available?",
           visibleContent: "Yes, South Indian food is available in Goa.",
           hidden: true,
         },
         {
-          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg ",
+          icon: "/plus.png",
           content: "Are these group tours? ",
           visibleContent: "No, these are individual tours for family & friends",
           hidden: true,
         },
         {
-          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg ",
+          icon: "/plus.png ",
           content: "What if I need assistance during my trip?",
           visibleContent:
             "If you need assistance during your trip, our executive is available 24/7",
           hidden: true,
         },
         {
-          icon: "https://hubble.cdn.chittiapp.com/cdn_uploads/eea11d50-d87a-11ee-889c-7bbca2e5b58b_Add.svg",
+          icon: "/plus.png",
           content: "Is goa safe for family tourists?",
           visibleContent: "Yes, Goa is safe for family tourists.",
           hidden: true,
